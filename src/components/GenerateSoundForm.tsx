@@ -138,13 +138,13 @@ export function GenerateSoundForm({ handleGetAudio }: GenerateSoundFormProps) {
           <Button type="submit" disabled={formSubmitting}>
             Submit
           </Button>
-          <Link href="https://github.com/ARITRA69/text-to-speach" target="_blank">
-            <Button className="gap-3 w-full bg-transparent border-2 border-black text-black hover:text-white mt-10">
-              Source Code <Github />
-            </Button>
-          </Link>
         </form>
       </Form>
+      <Link href="https://github.com/ARITRA69/text-to-speach" target="_blank">
+        <Button className="gap-3 w-full bg-transparent border-2 border-black text-black hover:text-white mt-10">
+          Source Code <Github />
+        </Button>
+      </Link>
     </div>
   );
 }
