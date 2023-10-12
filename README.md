@@ -9,11 +9,13 @@ This web application allows you to convert text into speech using the Hugging Fa
 ## Installation
 
 1. Clone the repository to your local machine:
- `git clone https://github.com/ARITRA69/text-to-speech/`   
-2. Navigate to the project folder
-3. Install the project dependencies: `npm i`
-4. Start the development server: `npm run dev`
-5. Open your web browser and access the app at `http://localhost:3000`.
+ ```bash
+git clone https://github.com/ARITRA69/text-to-speech/
+```   
+3. Navigate to the project folder
+4. Install the project dependencies: `npm i`
+5. Start the development server: `npm run dev`
+6. Open your web browser and access the app at `http://localhost:3000`.
 
 ## Technologies Used
 
